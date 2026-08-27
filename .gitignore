@@ -1,0 +1,101 @@
+```gitignore
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# Environment Variables / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Hugging Face / ML Cache
+# =========================
+.cache/
+.cache/
+huggingface_cache/
+hf_cache/
+
+# =========================
+# Trained Models
+# =========================
+saved_summary_model/
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# =========================
+# Training Results
+# =========================
+results/
+runs/
+wandb/
+mlruns/
+
+# =========================
+# Dataset
+# =========================
+Dataset/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Operating System
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.temp
+*.bak
+
+# =========================
+# Build / Distribution
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Coverage / Testing
+# =========================
+.coverage
+htmlcov/
+.pytest_cache/
+```
